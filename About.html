@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph's Website | About-Me Page</title>
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<!---------- Navigation Bar ------------->    
+    <!---------- Navigation Bar ------------->
     <header>
-    <nav>
-        <ul class='nav-bar'>
-            <input type='checkbox' id='check' />
-            <span class="menu">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contacts</a></li>
-                <li><a href="About.html">About</a></li>
-                <li id="signup-link"><a href="Signup.html">Sign Up</a></li>
-                <li id="login-link"><a href="Login.html">Log In</a></li>
-                <li id="profile-link"><a href="Profile.html">Profile</a></li>
-                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-            </span>
-<!------------ Searchbar -------------->
-            <li class="searchbar">
-                <input type="text" class="searchbar-input" name="search" placeholder="Search Website">
-                <button type="submit" class="searchbar-button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </li>         
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </ul>
-    </nav>
+        <nav>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./Portfolio.html">Portfolio</a></li>
+                    <li><a href="./Contact.html">Contacts</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li id="signup-link"><a href="./Signup.html">Sign Up</a></li>
+                    <li id="login-link"><a href="./Login.html">Log In</a></li>
+                    <li id="profile-link"><a href="./Profile.html">Profile</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <!------------ Searchbar -------------->
+                <li class="searchbar">
+                    <input type="text" class="searchbar-input" name="search" placeholder="Search Website">
+                    <button type="submit" class="searchbar-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </li>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
     </header>
-    
-<!----------- About Me ------------->
+
+    <!----------- About Me ------------->
     <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="img/profile.jpg">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <h2 class="intro-text">Heya! I'm Joseph.</h2>
-                <p>
-                I am 20 years old, and am currently studying at Nelson Marlbourgh Institue of Technology doing 
-                a course in Bachelor of Information Technology. I am a first year student and have a passion with 
-                learning more about Web Development and UX/UI Design. I am interested in this subject because I 
-                had a great time with making my first site and wanting to understand and learn how to designs and 
-                create websites. I like to take photos on my Nikon E90 and playing Magic the Gathering. 
-                </p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('jobs')">Jobs</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/profile.jpg">
                 </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>User Interface/User Experience</span><br>Learning to create website designs and models</li>
-                        <li><span>Website Development</span><br>Learning to create websites</li>
-                        <li><span>Photography</span><br>Taking photos on Nikon E90</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="jobs">
-                    <ul>
-                        <li><span>2018 - Current</span><br>New World Assistant Supervisor</li>
-                        <li><span>Previous Jobs</span></li>
-                        <li><span>2021</span><br>KT's Takeaways Staff Member</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education"">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h2 class="intro-text">Heya! I'm Joseph.</h2>
+                    <p>
+                        I am 20 years old, and am currently studying at Nelson Marlbourgh Institue of Technology doing
+                        a course in Bachelor of Information Technology. I am a first year student and have a passion
+                        with
+                        learning more about Web Development and UX/UI Design. I am interested in this subject because I
+                        had a great time with making my first site and wanting to understand and learn how to designs
+                        and
+                        create websites. I like to take photos on my Nikon E90 and playing Magic the Gathering.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('jobs')">Jobs</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>User Interface/User Experience</span><br>Learning to create website designs and
+                                models</li>
+                            <li><span>Website Development</span><br>Learning to create websites</li>
+                            <li><span>Photography</span><br>Taking photos on Nikon E90</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="jobs">
+                        <ul>
+                            <li><span>2018 - Current</span><br>New World Assistant Supervisor</li>
+                            <li><span>Previous Jobs</span></li>
+                            <li><span>2021</span><br>KT's Takeaways Staff Member</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education"">
                     <ul>
                         <li><span>2012 - 2014</span><br>St Peter Chanel</li>
                         <li><span>2015 - 2016</span><br>Motueka South School</li>
@@ -84,48 +91,49 @@
                         <li><span>2023 - Current</span><br>Nelson Marlborough Institute of Technology</li>
                     </ul>
                 </div>
-                <div class="tab-contents" id="hobbies">
-                    <ul>
-                        <li><span>What I like to do</span><br>
-                        Magic the Gathering<br>
-                        Going to the Gym<br>
-                        Learn to Code (Javascript, HTML/CSS)<br>
-                        Gaming<br>
-                        Playing Board Games<br>
-                    </li>
-                    </ul>
+                <div class=" tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>What I like to do</span><br>
+                                Magic the Gathering<br>
+                                Going to the Gym<br>
+                                Learn to Code (Javascript, HTML/CSS)<br>
+                                Gaming<br>
+                                Playing Board Games<br>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
-<!---------- Javascript ----------->
-<script>
+    <!---------- Javascript ----------->
+    <script>
 
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link")
-        } 
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab")
-        } 
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
 
-    }
-</script>
+        }
+    </script>
 
-<!-- Script files -->
-<script type="module" src="./user.js"></script>
+    <!-- Script files -->
+    <script type="module" src="./user.js"></script>
 
 
-<!--------- Footer  ---------->
-<footer>
-    <p>© 2023 Created by Joseph Cruel</p>
-</footer>
+    <!--------- Footer  ---------->
+    <footer>
+        <p>© 2023 Created by Joseph Cruel</p>
+    </footer>
 </body>
+
 </html>
