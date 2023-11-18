@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph's Website | Contacts Page</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!----------- Navigation Bar ------------->
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contacts</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li id="signup-link"><a href="Signup.html">Sign Up</a></li>
+                    <li id="login-link"><a href="Login.html">Log In</a></li>
+                    <li id="profile-link"><a href="Profile.html">Profile</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <!------------ Searchbar -------------->
+                <li class="searchbar">
+                    <input type="text" class="searchbar-input" name="search" placeholder="Search Website">
+                    <button type="submit" class="searchbar-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </li>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!------------ Contact Me -------------->
+
+    <div id="contact">
+        <div class="container-contacts">
+            <div class="row-contacts">
+                <div class="contact-info">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> - josephcruel2457@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> - 021 087 30536</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/h3y_itsjoseph/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/joseph-cruel-067b67267/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/josephcruel"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://discord.com/users/353733493026717697"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <h1>Get in touch</h1>
+                    <p>Flick me a message and we can have a chat!</p>
+                    <form action="" id="contactForm">
+                        <div class="alert">Message Sent Successfully</div>
+            
+                        <div class="inputBox">
+                            <input type="text" id="name" placeholder="Your Name..." />
+                        </div>
+            
+                        <div class="inputBox">
+                            <input type="email" id="emailid" placeholder="Your Email..." />
+                        </div>
+            
+                        <div class="inputBox">
+                            <textarea id="msgContent" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                        </div>
+            
+                        <div class="inputBox">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </form>     
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Script files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script type="module"src="./form.js"></script>
+<script type="module" src="./user.js"></script>
+
+    <!--------- Footer  ---------->
+    <footer>
+        <p>© 2023 Created by Joseph Cruel</p>
+    </footer>
+</body>
+
+</html>
