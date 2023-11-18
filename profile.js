@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         // User signed out successfully
                         console.log('User signed out.');
                         // Redirect to the home page after signing out
-                        window.location.href = "Home.html";
+                        window.location.href = "index.html";
                     })
                     .catch((error) => {
                         // Handle sign-out errors

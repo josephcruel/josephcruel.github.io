@@ -39,7 +39,7 @@ loginButton.addEventListener('click', () => {
             passwordInput.value = '';
 
             // Redirect to the home page after signing in
-            window.location.href = "Home.html";
+            window.location.href = "index.html";
         })
         .catch((error) => {
             // Handle sign-in errors
